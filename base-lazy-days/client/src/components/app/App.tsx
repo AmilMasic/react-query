@@ -8,6 +8,7 @@ import { Navbar } from './Navbar';
 import { Routes } from './Routes';
 
 export function App(): ReactElement {
+  console.log('something');
   return (
     <ChakraProvider theme={theme}>
       <Navbar />
